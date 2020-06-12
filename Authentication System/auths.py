@@ -10,7 +10,7 @@ from flask_httpauth import HTTPBasicAuth, HTTPTokenAuth
 from werkzeug.security import generate_password_hash, check_password_hash
 from FlaskAPI.connection import *
 
-# /pathto/fnb-backend
+# /pathto/fnb-backend 
 root_dir = os.path.dirname(os.path.dirname(
     os.path.dirname(os.path.abspath(__file__)))
 )
